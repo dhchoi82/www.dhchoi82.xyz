@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            뭣이 중요한디?
+        </title>
+        <meta charset='utf-8'>
+        <style>
+            head {
+                display:block;
+                visibility:visible;
+            }
+            body {
+                width: 980px;
+                text-align:center;
+            }
+            style,script {
+                display:block;
+                visibility:visible;
+                width: 500px;
+                border:1px solid black;
+                text-align:justify;
+            }
+            * {margin: 10px auto;}
+        </style>
+    </head>
+    <body>
+        <a href='https://github.com' target=_blank>깃허브 바로가기</a><br>
+        <textarea cols='30' rows='20' id='yourText'></textarea><br>
+        <button type='button' id='runButton'>입력한 글 콘솔로 보내기</button>
+        <script>
+            console.log('자바스크립트가 화면에 표시됩니다.');
+            document.getElementById('runButton').addEventListener(
+                'click',
+                function(){
+                    console.log(document.getElementById('yourText').value);
+                });
+        </script>
+    </body>
+</html>
+        
