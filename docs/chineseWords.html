@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            중국어 단어장
+        </title>
+        <meta charset='utf-8'>
+    </head>
+    <body>
+        <ul id='wordList'></ul>
+        <script>
+            var wordArray=['老师','你','好','大家','早上','辛苦','了','在','见','拜拜','我','们','明天','学生'];
+            
+            for(var i=0;i<wordArray.length;i++){
+                document.getElementById('wordList').innerHTML+='<li>'+
+                    "<a href='https://dic.daum.net/search.do?dic=ch&q="+
+                    wordArray[i]+"' target=_blank>"+
+                    wordArray[i]+'</a></li>'
+            }
+        </script>
+    </body>
+</html>
