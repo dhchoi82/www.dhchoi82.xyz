@@ -6,11 +6,27 @@
         </title>
         <meta name="viewport" content="initial-scale=1" />
         <meta charset="utf-8">
+        
+        <style>
+            li {
+                display:inline-block;
+                padding:3px 5px;
+                margin:0.3em;
+                background-color: Lavender;
+            }
+            a {
+                color: DimGray;
+                text-decoration: none;
+            }
+        </style>
     </head>
     <body>
         <ul id='wordList'></ul>
         <script>
-            var wordArray=['老师','你','好','大家','早上','辛苦','了','在','见','拜拜','我','们','明天','学生'];
+            var wordArray=['老师','你','好','大家','早上','辛苦','了','在',
+                '见','拜拜','我','们','明天','学生','爸爸','妈妈','都','吗',
+                '他们','很','最近','忙','不','马马虎虎'];
+            wordArray.sort(function(x,y){return (0.5-Math.random())});
             
             for(var i=0;i<wordArray.length;i++){
                 document.getElementById('wordList').innerHTML+='<li>'+
