@@ -6,7 +6,20 @@
         <title>Map</title>
     </head>
     <body>
-        <input type="number">
-        <input type="button" value="확인" min="1" max="133">
+        <input type="number" id="textbox">
+        <input type="button" value="확인" min="1" max="133" id="clickbutton">
+        <script type="text/javascript">
+            let textbox = document.getElementById("textbox");
+            let clickbutton = document.getElementById("clickbutton");
+            let coords = {1:[33.2522972,126.5059583],
+                2:[33.2372634,126.4909685]}
+
+            clickbutton.addEventListener("click",function(){
+                coord = coords[textbox.value];
+                let url = "https://map.kakao.com/link/map/" + textbox.value +
+                    "," + coord[0] + "," + coord[1];
+                open(url);
+            })
+        </script>
     </body>
 </html>
