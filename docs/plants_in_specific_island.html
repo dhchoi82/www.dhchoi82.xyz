@@ -3,9 +3,553 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1" />
-    <title>특정도서 분포 외래식물 종 특성 분석</title>
+    <title>특정도서 분포 외래식물 종 특성</title>
+    <style>
+th,td {
+    padding: 5px 10px;
+}
+td {
+    padding-left: 20px;
+}
+table {
+    padding: 3px;
+    border-collapse: collapse;
+}
+tbody:last-child {
+    border-bottom: solid 1px;
+}
+.family_top {
+    border-top: solid 1px;
+}
+.family_top>td {
+    padding-left: 10px;
+}
+    </style>
 </head>
-</body>
-    <p>test 01</p>
+<body>
+    <h1 title="제80회 한국생물과학협회 정기학술대회, 
+        B174, 특정도서 분포 외래식물 종 특성 분석">특정도서 분포 외래식물 종 특성</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Scientific name</th>
+                <th>Korean name</th>
+                <th>Introduced year</th>
+                <th>Life form</th>
+                <th>Category of checklist vascular plants in Korea</th>
+                <th>Number of Botanic Country</th>
+                <th>Designated Numbers of Specific Island</th>
+            </th>
+        </thead>
+        <tbody>
+            <tr class="family_top"><td colspan="7"><b>Poaceae</b></td></tr>
+            <tr>
+                <td><i>Alopecurus japonicus</i> Steud.</td>
+                <td>털뚝새풀</td>
+                <td>1993</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>6</td>
+                <td>64</td>
+            </tr>
+            <tr>
+                <td><i>Avena fatua</i> L.</td>
+                <td>메귀리</td>
+                <td>1884~1885<sup>a</sup></td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>203</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td><i>Dactylis glomerata</i> L.</td>
+                <td>오리새</td>
+                <td>1909</td>
+                <td>Herb (perennial)</td>
+                <td>Naturalized</td>
+                <td>213</td>
+                <td>20, 49, 54</td>
+            </tr>
+            <tr>
+                <td><i>Elymus repens</i> (L.) Gould</td>
+                <td>구주개밀</td>
+                <td>1897<sup>ab</sup></td>
+                <td>Herb (perennial)</td>
+                <td>Naturalized</td>
+                <td>174</td>
+                <td>12, 14, 16, 24, 54</td>
+            </tr>
+            <tr>
+                <td><i>Lolium perenne</i> L.</td>
+                <td>호밀풀</td>
+                <td>1939</td>
+                <td>Herb (perennial)</td>
+                <td>Naturalized</td>
+                <td>209</td>
+                <td>59, 95</td>
+            </tr>
+            <tr>
+                <td><i>Panicum dichotomiflorum</i> Michx.</td>
+                <td>미국개기장</td>
+                <td>1959</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>115</td>
+                <td>137</td>
+            </tr>
+            <tr>
+                <td><i>Parapholis incurva</i> (L.) C. E. Hubb.</td>
+                <td>뿔이삭풀</td>
+                <td>1994</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>74</td>
+                <td>59</td>
+            </tr>
+            <tr>
+                <td><i>Poa pratensis</i> L.</td>
+                <td>왕포아풀</td>
+                <td>1897<sup>ab</sup></td>
+                <td>Herb (perennial)</td>
+                <td>Naturalized</td>
+                <td>209</td>
+                <td>49, 50, 94, 96, 98, 100, 104, 125, 168, 186, 187</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Apiaceae</b></td></tr>
+            <tr>
+                <td><i>Anthriscus caucalis</i> M. Bieb.</td>
+                <td>유럽전호</td>
+                <td>1998</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>77</td>
+                <td>4, 9, 68</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Asteraceae</b></td></tr>
+            <tr>
+                <td><i>Ambrosia artemisiifolia</i> L.</td>
+                <td>돼지풀</td>
+                <td>1955</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>134</td>
+                <td>82, 85, 127, 148, 152, 189</td>
+            </tr>
+            <tr>
+                <td><i>Aster subulatus</i> Michx.</td>
+                <td>비짜루국화</td>
+                <td>1971</td>
+                <td>Herb (biennial)</td>
+                <td>Naturalized</td>
+                <td>57</td>
+                <td>8, 55, 57, 76, 83, 95, 101, 141</td>
+            </tr>
+            <tr>
+                <td><i>Aster subulatus</i> var. <i>sandwicensis</i> (A. Gray) A.G. Jones</td>
+                <td>큰비짜루국화</td>
+                <td>1992</td>
+                <td>Herb (biennial)</td>
+                <td>Naturalized</td>
+                <td>72</td>
+                <td>29, 35, 64, 66, 93, 99, 124, 152, 170, 171</td>
+            </tr>
+            <tr>
+                <td><i>Bidens frondosa</i> L.</td>
+                <td>미국가막사리</td>
+                <td>1966</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>109</td>
+                <td>2, 6, 36, 59, 60, 64, 82, 85, 122, 124, 127, 147, 152</td>
+            </tr>
+            <tr>
+                <td><i>Conyza bonariensis</i> (L.) Cronquist</td>
+                <td>실망초</td>
+                <td>1906</td>
+                <td>Herb (annual, biennial)</td>
+                <td>Naturalized</td>
+                <td>130</td>
+                <td>48</td>
+            </tr>
+            <tr>
+                <td><i>Conyza canadensis</i> (L.) Cronquist</td>
+                <td>망초</td>
+                <td>1897</td>
+                <td>Herb (biennial)</td>
+                <td>Naturalized</td>
+                <td>205</td>
+                <td>2, 9, 12, 20, 29, 35, 36, 37, 38, 48, 49, 50, 52, 54, 56, 57, 58, 59, 60, 63, 64, 66, 67, 68, 70, 72, 73, 76, 78, 81, 85, 95, 96, 99, 102, 103, 108, 109, 112, 122, 127, 133, 134, 143, 147, 149, 150, 151, 152, 153, 160, 166, 170, 171, 178, 179, 182, 189</td>
+            </tr>
+            <tr>
+                <td><i>Conyza sumatrensis</i> (Retz.) E. Walker</td>
+                <td>큰망초</td>
+                <td>1876~1945</td>
+                <td>Herb (biennial)</td>
+                <td>Naturalized</td>
+                <td>93</td>
+                <td>57, 58, 59, 60, 156, 158</td>
+            </tr>
+            <tr>
+                <td><i>Coreopsis lanceolata</i> L.</td>
+                <td>큰금계국</td>
+                <td>1876~1945</td>
+                <td>Herb (perennial)</td>
+                <td>Cultivated</td>
+                <td>60</td>
+                <td>96</td>
+            </tr>
+            <tr>
+                <td><i>Crassocephalum crepidioides</i> (Benth.) S. Moore</td>
+                <td>주홍서나물</td>
+                <td>1984</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>70</td>
+                <td>64, 70</td>
+            </tr>
+            <tr>
+                <td><i>Erigeron annuus</i> (L.) Pers.</td>
+                <td>개망초</td>
+                <td>1912</td>
+                <td>Herb (biennial)</td>
+                <td>Naturalized</td>
+                <td>108</td>
+                <td>2, 11, 20, 48, 49, 50, 58, 59, 88, 89, 102, 105, 108, 109, 112, 123, 152, 153, 157</td>
+            </tr>
+            <tr>
+                <td><i>Galinsoga quadriradiata</i> Ruiz & Pav.</td>
+                <td>털별꽃아재비</td>
+                <td>after 1945</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>142</td>
+                <td>2, 7</td>
+            </tr>
+            <tr>
+                <td><i>Gamochaeta calviceps</i> (Fernald) Cabrera</td>
+                <td>선풀솜나물</td>
+                <td>after 1945</td>
+                <td>Herb (annual, biennial)</td>
+                <td>Naturalized</td>
+                <td>33</td>
+                <td>107</td>
+            </tr>
+            <tr>
+                <td><i>Gamochaeta purpurea</i> (L.) Cabrera</td>
+                <td>자주풀솜나물</td>
+                <td>1997</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>95</td>
+                <td>182</td>
+            </tr>
+            <tr>
+                <td><i>Senecio vulgaris</i> L.</td>
+                <td>개쑥갓</td>
+                <td>1912</td>
+                <td>Herb (annual, biennial)</td>
+                <td>Naturalized</td>
+                <td>188</td>
+                <td>70, 73</td>
+            </tr>
+            <tr>
+                <td><i>Sonchus asper</i> (L.) Hill</td>
+                <td>큰방가지똥</td>
+                <td>1917</td>
+                <td>Herb (annual, biennial)</td>
+                <td>Naturalized</td>
+                <td>223</td>
+                <td>11, 20, 58, 78, 80, 83, 88, 91, 96, 102, 105, 106, 109, 110, 125, 153, 156, 157, 162, 163, 178</td>
+            </tr>
+            <tr>
+                <td><i>Sonchus oleraceus</i> L.</td>
+                <td>방가지똥</td>
+                <td>1900<sup>a</sup></td>
+                <td>Herb (perennial)</td>
+                <td>Naturalized</td>
+                <td>215</td>
+                <td>64, 66, 68, 69, 70, 96, 99, 100, 103, 104, 130, 131, 182, 183, 184, 185, 187</td>
+            </tr>
+            <tr>
+                <td><i>Tagetes minuta</i> L.</td>
+                <td>만수국아재비</td>
+                <td>1977</td>
+                <td>Herb (perennial)</td>
+                <td>Naturalized</td>
+                <td>92</td>
+                <td>127</td>
+            </tr>
+            <tr>
+                <td><i>Taraxacum officinale</i> F. H. Wigg.</td>
+                <td>서양민들레</td>
+                <td>1876~1945</td>
+                <td>Herb (perennial)</td>
+                <td>Naturalized</td>
+                <td>189</td>
+                <td>2, 15, 20, 29, 36, 50, 60, 152, 189</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Brassicaceae</b></td></tr>
+            <tr>
+                <td><i>Cakile edentula</i> (Bigelow) Hook.</td>
+                <td>서양갯냉이</td>
+                <td>2007</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>50</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td><i>Descurainia pinnata</i> Britton</td>
+                <td>나도재쑥</td>
+                <td>1989</td>
+                <td>Herb (annual)</td>
+                <td>uncertain</td>
+                <td>58</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td><i>Lepidium apetalum</i> Willd.</td>
+                <td>다닥냉이</td>
+                <td>1909<sup>b</sup></td>
+                <td>Herb (annual, biennial)</td>
+                <td>uncertain</td>
+                <td>27</td>
+                <td>2, 9, 78, 109, 122</td>
+            </tr>
+            <tr>
+                <td><i>Thlaspi arvense</i> L.</td>
+                <td>말냉이</td>
+                <td>1859</td>
+                <td>Herb (biennial)</td>
+                <td>Naturalized</td>
+                <td>162</td>
+                <td>6, 48, 52, 78, 125, 127, 178</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Amaranthaceae</b></td></tr>
+            <tr>
+                <td><i>Amaranthus retroflexus</i> L.</td>
+                <td>털비름</td>
+                <td>1912</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>177</td>
+                <td>2</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Caryophyllaceae</b></td></tr>
+            <tr>
+                <td><i>Cerastium glomeratum</i> Thuill.</td>
+                <td>유럽점나도나물</td>
+                <td>after 1945</td>
+                <td>Herb (biennial)</td>
+                <td>Naturalized</td>
+                <td>179</td>
+                <td>59, 91, 100, 161, 163</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Chenopodiaceae</b></td></tr>
+            <tr>
+                <td><i>Chenopodium album</i> L.</td>
+                <td>흰명아주</td>
+                <td>1889<sup>ab</sup></td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>231</td>
+                <td>16, 18, 19, 21, 23, 24, 25, 26, 29, 38, 58, 87, 88, 91, 92, 106, 107, 108, 110, 152, 157, 158, 161, 164, 188</td>
+            </tr>
+            <tr>
+                <td><i>Chenopodium ambrosioides</i> L.</td>
+                <td>양명아주</td>
+                <td>1934</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>225</td>
+                <td>152</td>
+            </tr>
+            <tr>
+                <td><i>Chenopodium ficifolium</i> Sm.</td>
+                <td>좀명아주</td>
+                <td>1913<sup>b</sup></td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>78</td>
+                <td>11, 17, 18, 19, 20, 24, 26, 58, 59, 60, 67, 71, 72, 87, 90, 94, 95, 96, 98, 120, 121, 122, 134, 150, 188, 189</td>
+            </tr>
+            <tr>
+                <td><i>Chenopodium glaucum</i> L.</td>
+                <td>취명아주</td>
+                <td>1897<sup>a</sup></td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>126</td>
+                <td>109, 152</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Molluginaceae</b></td></tr>
+            <tr>
+                <td><i>Mollugo verticillata</i> L.</td>
+                <td>털뚝새풀</td>
+                <td>1965</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>119</td>
+                <td>171</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Phytolaccaceae</b></td></tr>
+            <tr>
+                <td><i>Phytolacca acinosa</i> Roxb.</td>
+                <td>자리공</td>
+                <td>1859<sup>b</sup></td>
+                <td>Herb (perennial)</td>
+                <td>Naturalized</td>
+                <td>36</td>
+                <td>51, 52, 54, 88, 165, 188</td>
+            </tr>
+            <tr>
+                <td><i>Phytolacca americana</i> L.</td>
+                <td>미국자리공</td>
+                <td>1959</td>
+                <td>Herb (perennial)</td>
+                <td>Naturalized</td>
+                <td>112</td>
+                <td>24</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Euphorbiaceae</b></td></tr>
+            <tr>
+                <td><i>Euphorbia maculata</i> L.</td>
+                <td>애기땅빈대</td>
+                <td>1876~1945</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>134</td>
+                <td>20, 50, 95</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Fabaceae</b></td></tr>
+            <tr>
+                <td><i>Amorpha fruticosa</i> L.</td>
+                <td>족제비싸리</td>
+                <td>1876~1945</td>
+                <td>Tree</td>
+                <td>Cultivated</td>
+                <td>73</td>
+                <td>2, 8, 9, 11, 55, 78, 81, 82, 85, 88, 92, 120, 122</td>
+            </tr>
+            <tr>
+                <td><i>Medicago lupulina</i> L.</td>
+                <td>잔개자리</td>
+                <td>1877~1882<sup>a</sup></td>
+                <td>Herb (annual, biennial)</td>
+                <td>Naturalized</td>
+                <td>202</td>
+                <td>50, 95</td>
+            </tr>
+            <tr>
+                <td><i>Melilotus albus</i> Medik.</td>
+                <td>흰전동싸리</td>
+                <td>1934</td>
+                <td>Herb (annual, biennial)</td>
+                <td>Naturalized</td>
+                <td>198</td>
+                <td>137</td>
+            </tr>
+            <tr>
+                <td><i>Robinia pseudoacacia</i> L.</td>
+                <td>아까시나무</td>
+                <td>1876~1945</td>
+                <td>Tree</td>
+                <td>Cultivated</td>
+                <td>132</td>
+                <td>2, 7, 11, 15, 48, 53, 64, 68, 78, 81, 85, 86, 88, 96, 111, 112, 120, 123, 134, 137, 147, 152, 181</td>
+            </tr>
+            <tr>
+                <td><i>Trifolium repens</i> L.</td>
+                <td>토끼풀</td>
+                <td>1909</td>
+                <td>Herb (perennial)</td>
+                <td>Naturalized</td>
+                <td>209</td>
+                <td>50</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Malvaceae</b></td></tr>
+            <tr>
+                <td><i>Malva neglecta</i> Wallr.</td>
+                <td>난쟁이아욱</td>
+                <td>1992</td>
+                <td>Herb (annual, biennial, perennial)</td>
+                <td>Naturalized</td>
+                <td>135</td>
+                <td>20</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Onagraceae</b></td></tr>
+            <tr>
+                <td><i>Oenothera biennis</i> L.</td>
+                <td>달맞이꽃</td>
+                <td>1913</td>
+                <td>Herb (biennial)</td>
+                <td>Naturalized</td>
+                <td>139</td>
+                <td>2, 50, 68, 96, 122, 153</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Polygonaceae</b></td></tr>
+            <tr>
+                <td><i>Fallopia dumetorum</i> (L.) Holub</td>
+                <td>닭의덩굴</td>
+                <td>1863<sup>b</sup></td>
+                <td>Herb (annual)</td>
+                <td>Indigenous</td>
+                <td>95</td>
+                <td>11, 17, 18, 20, 21, 26, 29, 37, 49, 50, 51, 64, 91, 95, 99, 107</td>
+            </tr>
+            <tr>
+                <td><i>Rumex crispus</i> L.</td>
+                <td>소리쟁이</td>
+                <td>1902<sup>ab</sup></td>
+                <td>Herb (perennial)</td>
+                <td>Naturalized</td>
+                <td>226</td>
+                <td>64, 66, 67, 72, 96, 182, 183, 184, 187</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Scrophulariaceae</b></td></tr>
+            <tr>
+                <td><i>Veronica persica</i> Poir.</td>
+                <td>큰개불알풀</td>
+                <td>1876~1945</td>
+                <td>Herb (biennial)</td>
+                <td>Naturalized</td>
+                <td>184</td>
+                <td>152</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Convolvulaceae</b></td></tr>
+            <tr>
+                <td><i>Cuscuta campestris</i> Yunck.</td>
+                <td>미국실새삼</td>
+                <td>after 1945</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>201</td>
+                <td>60, 79, 80, 147, 152</td>
+            </tr>
+            <tr>
+                <td><i>Ipomoea hederacea</i> Jacq.</td>
+                <td>미국나팔꽃</td>
+                <td>1978</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>69</td>
+                <td>2</td>
+            </tr>
+            <tr class="family_top"><td colspan="7"><b>Solanaceae</b></td></tr>
+            <tr>
+                <td><i>Physalis angulata</i> L.</td>
+                <td>땅꽈리</td>
+                <td>1906</td>
+                <td>Herb (annual)</td>
+                <td>Naturalized</td>
+                <td>191</td>
+                <td>54</td>
+            </tr>
+        </tbody>
+    </table>
+    <ol type="a">
+        <li>It is believed to have been introduced befor 1876.</li>
+        <li>Indigenous species by World Checklist of Vascular Plants.</li>
+    </ol>
 </body>
 </html>
